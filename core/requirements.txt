@@ -1,5 +1,12 @@
 alignak==2.1.5
+
 alignak-backend-client==1.4.2
 alignak-backend-import==1.2.2
-alignak-checks-snmp==2.0.2
+
 alignak-module-backend==1.4.3
+alignak-module-logs==1.3.0
+alignak-module-ws==1.7.7
+
+alignak-checks-snmp==2.0.2
+alignak-checks-nrpe
+alignak-checks-monitoring
