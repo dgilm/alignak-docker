@@ -11,6 +11,7 @@ sed -i \
     -e 's/;modules=backend_broker, logs/modules=backend_broker/' \
     -e 's/;modules=backend_scheduler/modules=backend_scheduler/' \
     -e 's/;modules=backend_arbiter/modules=backend_arbiter/' \
+    -e 's/;host=127.0.0.1/host=0.0.0.0/g' \
     /usr/local/share/alignak/etc/alignak.d/daemons.ini
 
 sed -i \
