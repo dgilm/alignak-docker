@@ -23,4 +23,4 @@ sed -i \
     's#api_url=http://127.0.0.1:5000#api_url=http://backend:5000#' \
     /usr/local/share/alignak/etc/alignak.d/backend-scheduler.ini
 
-/usr/bin/supervisord -c /etc/supervisor/conf.d/alignak.conf
+/usr/bin/supervisord -c /etc/supervisor/supervisord.conf
