@@ -48,7 +48,6 @@ docker-compose exec core \
     alignak-backend-import \
     -b "http://backend:5000" \
     -u admin -p admin \
-    --update \
     /usr/local/share/alignak/etc/alignak.cfg
 ```
 
