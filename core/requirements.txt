@@ -1,5 +1,8 @@
 alignak==2.1.5
 
+# needed only if you want to import assets
+# via alignak-backend-import utility
+alignak-backend==1.4.16
 alignak-backend-client==1.4.2
 alignak-backend-import==1.2.2
 
