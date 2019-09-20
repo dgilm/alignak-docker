@@ -1,6 +1,7 @@
 # alignak-docker
 
-Run alignak monitoring framework using docker and docker-compose.
+Run [alignak monitoring framework](http://www.alignak.net/) using
+docker and docker-compose.
 
 ## Services
 
