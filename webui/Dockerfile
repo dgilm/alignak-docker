@@ -20,6 +20,7 @@ RUN sed -i \
     "s|; alignak_ws_authorization = 0|alignak_ws_authorization = 1|" \
     /usr/local/share/alignak-webui/etc/settings.cfg
 
-# TODO: is there an environment variable to override default settings.cfg?
-RUN ln -sf /usr/local/share/alignak-webui/etc /usr/local/etc/alignak-webui
+
+ENV ALIGNAK_WEBUI_CONFIGURATION_FILE /usr/local/share/alignak-webui/etc/settings.cfg
+ENV ALIGNAK_WEBUI_UWSGI_FILE /usr/local/share/alignak-webui/etc/uwsgi.ini
 CMD /usr/local/share/alignak-webui/alignak-webui-uwsgi
