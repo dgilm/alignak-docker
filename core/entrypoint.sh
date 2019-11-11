@@ -7,6 +7,8 @@ mkdir -p /usr/local/var/log/alignak \
 mkdir -p /usr/local/var/run/alignak \
     && chown -R alignak:alignak /usr/local/var/run/alignak
 
+sed -e 's/;process_performance_data=1/process_performance_data=1/'
+
 sed -i \
     -e 's/;modules=backend_broker, logs/modules=backend_broker/' \
     -e 's/;modules=backend_scheduler/modules=backend_scheduler/' \
