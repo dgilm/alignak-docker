@@ -1,4 +1,4 @@
 alignak-webui==0.12.2
-uWSGI==2.0.18
+uWSGI==2.0.22
 #alignak-backend==1.4.16
 #alignak-backend-client==1.4.2
